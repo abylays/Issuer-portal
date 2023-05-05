@@ -1,4 +1,4 @@
-# Issuer web portal demo powered by Affinidi API
+# Issuer web portal 
 
 This is a react application that offers a UI and uses Affinidy's API to issue verifiable credentials. The portal can be used to fill in user data by BankID Issuers, Employer and Norwegian Tax Authority which are the three issuers in our implementation. Ideally, they would have their own respective portal but since, it is a proof-of-concept implementation, all three credentials can be issued through the same web portal. The credentials contain their respective attributes which is signed and presented to the user. Once issued, it can be stored by the holder in their wallet.
 
@@ -46,7 +46,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Prepare issuer portal
 1. Clone the repository
-`https://github.com/Anushka3174/Issuer-credential-portal.git`
+
 3. Install the dependencies
 `npm install`
 4. Open up the repository in a code editor of your choice
