@@ -1,0 +1,89 @@
+.page-form {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 75px 40px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 0 15px 0;
+  }
+
+  .info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0 0 25px 0;
+  }
+
+  .label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #5E5E5E;
+    margin: 0 0 10px 0;
+  }
+
+  .input {
+    background: rgba(36, 0, 255, 0.05);
+    border-radius: 5px;
+    border-color: rgba(36, 0, 255, 0.05);
+  }
+
+  .button {
+    color: #fff;
+    cursor: pointer;
+    background: #2400FF;
+    border-radius: 5px;
+
+    &:hover {
+      background: #15009E;
+    }
+
+    &:disabled {
+      cursor: default;
+
+      &:hover {
+        background: #2400FF;
+      }
+    }
+  }
+
+  .link-label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin: 25px 0 0 0;
+  }
+
+  .link {
+    color: #2400FF;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .page-form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+
+    &--slim {
+      max-width: 450px;
+    }
+
+    &--large {
+      max-width: 1400px;
+    }
+  }
+}

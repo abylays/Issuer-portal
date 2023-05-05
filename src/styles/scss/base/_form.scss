@@ -1,0 +1,10 @@
+input {
+  &[type="checkbox"],
+  &[type="radio"] {
+    + label {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
